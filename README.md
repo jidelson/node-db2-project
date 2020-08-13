@@ -37,3 +37,13 @@ The client for this API is a car dealer who has provided the following specs:
 - Add seed data to the database using `knex seeds`
 - Add `UPDATE` and `DELETE` operations to your API.
 - Write a schema file for a `sales` table. This table should track information on the sale of each car. You may wish to research `foreign keys` in order to link each sale to the entry in `cars` which sold.
+
+
+// NOTES
+
+1. find a proj that is working with
+both server.js and index.js
+2. do a server.get('/') to confirm server is working
+3. attempt to put everything in
+index.js without using server.js
+4. address package.json file
