@@ -72,7 +72,7 @@ router.delete('/:id', (req, res) => {
     const carId = req.params.id;
 
     db("cars")
-    .where({ id: accountId})
+    .where({ id: carId})
     .del()
     .then((count) => {
         if(count) {

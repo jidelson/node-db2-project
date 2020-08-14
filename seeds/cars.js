@@ -8,7 +8,7 @@ exports.seed = function(knex, Promise){
                 model: 'Explorer',
                 mileage: '122,345',
                 transmission: 'automatic',
-                title: 'clean'
+                titleStatus: 'clean'
             },
             { 
                 VIN: '5KBCP3F89AB011848',
@@ -16,7 +16,7 @@ exports.seed = function(knex, Promise){
                 model: 'Malibu',
                 mileage: '100,604',
                 transmission: 'manual',
-                title: 'salvage'
+                titleStatus: 'salvage'
             }
         ])
     })
